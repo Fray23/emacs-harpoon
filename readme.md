@@ -3,7 +3,7 @@
 🚀 Minimal, project-aware file bookmarking for Emacs. Inspired by [harpoon.nvim](https://github.com/ThePrimeagen/harpoon).
 
 ## Why?
-
+Yet another Harpoon plugin for Emacs 
 Yes, there are other bookmarking plugins for Emacs. But this one exists because:
 
 1. Just because.
