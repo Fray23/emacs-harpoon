@@ -11,7 +11,7 @@ Yes, there are other bookmarking plugins for Emacs. But this one exists because:
 3. Unlike many others, it **does not store anything inside your **``** directory**, meaning your bookmarks survive `git checkout branch` — no more losing state across branches.
    - Project-specific bookmarks require [Projectile](https://github.com/bbatsov/projectile).
    - Outside of any project, bookmarks are saved to a **global fallback file**.
-4. It's minimal: under 200 lines of Emacs Lisp. Zero dependencies.
+4. It's minimal: under 200 lines of Emacs Lisp. The only dependency is [Projectile](https://github.com/bbatsov/projectile)
 5. Includes harpoon-next / harpoon-prev functions for fast cycling like in harpoon.nvim.
 6. Bookmarks are searchable through minibuffer using your existing file selection tools (e.g. counsel with fzf), making navigation fast and intuitive.
 
